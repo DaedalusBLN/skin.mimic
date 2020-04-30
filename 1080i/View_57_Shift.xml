@@ -498,7 +498,7 @@
                 <top>2</top>
                 <width>200</width>
                 <height>42</height>
-                <label>[UPPERCASE]$LOCALIZE[13409][/UPPERCASE] $INFO[ListItem.Top250,#]</label>
+                <label>$LOCALIZE[13409] $INFO[ListItem.Top250,#]</label>
             </control>
         </control>
         <control type="group">

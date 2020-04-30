@@ -148,12 +148,12 @@
                             <visible>!String.IsEmpty(Window.Property(writer))</visible>
                         </item>
                         <item>
-                            <label>[UPPERCASE]$INFO[Window.Property(AudioLanguage.1)][/UPPERCASE]</label>
+                            <label>$INFO[Window.Property(AudioLanguage.1)]</label>
                             <label2>$LOCALIZE[292]:</label2>
                             <visible>!String.IsEmpty(Window.Property(DBID)) + !String.IsEmpty(Window.Property(AudioLanguage.1))</visible>
                         </item>
                         <item>
-                            <label>[UPPERCASE]$INFO[Window.Property(SubtitleLanguage.1)][/UPPERCASE]</label>
+                            <label>$INFO[Window.Property(SubtitleLanguage.1)]</label>
                             <label2>$LOCALIZE[462]:</label2>
                             <visible>!String.IsEmpty(Window.Property(DBID)) + !String.IsEmpty(Window.Property(SubtitleLanguage.1))</visible>
                         </item>

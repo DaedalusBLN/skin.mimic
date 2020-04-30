@@ -253,7 +253,7 @@
                 </control>
                 <control type="button" id="5006">
                     <width>400</width>
-                    <label>[UPPERCASE]$ADDON[script.extendedinfo 32066][/UPPERCASE]</label>
+                    <label>$ADDON[script.extendedinfo 32066]</label>
                     <font>font13</font>
                 </control>
                 <control type="button" id="5008">

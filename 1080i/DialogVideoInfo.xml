@@ -125,12 +125,12 @@
                             <visible>!String.IsEmpty(ListItem.Writer)</visible>
                         </item>
                         <item>
-                            <label>[UPPERCASE]$INFO[ListItem.Property(AudioLanguage.1)]$INFO[ListItem.Property(AudioLanguage.2),/]$INFO[ListItem.Property(AudioLanguage.3),/]$INFO[ListItem.Property(AudioLanguage.4),/]$INFO[ListItem.Property(AudioLanguage.5),/]$INFO[ListItem.Property(AudioLanguage.6),/]$INFO[ListItem.Property(AudioLanguage.7),/][/UPPERCASE]</label>
+                            <label>$INFO[ListItem.Property(AudioLanguage.1)]$INFO[ListItem.Property(AudioLanguage.2),/]$INFO[ListItem.Property(AudioLanguage.3),/]$INFO[ListItem.Property(AudioLanguage.4),/]$INFO[ListItem.Property(AudioLanguage.5),/]$INFO[ListItem.Property(AudioLanguage.6),/]$INFO[ListItem.Property(AudioLanguage.7),/]</label>
                             <label2>$LOCALIZE[292]:</label2>
                             <visible>!String.IsEmpty(ListItem.Property(AudioLanguage.1))</visible>
                         </item>
                         <item>
-                            <label>[UPPERCASE]$INFO[ListItem.Property(SubtitleLanguage.1)]$INFO[ListItem.Property(SubtitleLanguage.2),/]$INFO[ListItem.Property(SubtitleLanguage.3),/]$INFO[ListItem.Property(SubtitleLanguage.4),/]$INFO[ListItem.Property(SubtitleLanguage.5),/]$INFO[ListItem.Property(SubtitleLanguage.6),/]$INFO[ListItem.Property(SubtitleLanguage.7),/][/UPPERCASE]</label>
+                            <label>$INFO[ListItem.Property(SubtitleLanguage.1)]$INFO[ListItem.Property(SubtitleLanguage.2),/]$INFO[ListItem.Property(SubtitleLanguage.3),/]$INFO[ListItem.Property(SubtitleLanguage.4),/]$INFO[ListItem.Property(SubtitleLanguage.5),/]$INFO[ListItem.Property(SubtitleLanguage.6),/]$INFO[ListItem.Property(SubtitleLanguage.7),/]</label>
                             <label2>$LOCALIZE[462]:</label2>
                             <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.1))</visible>
                         </item>

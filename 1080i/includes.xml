@@ -651,7 +651,7 @@
                         <height>80</height>
                         <font>font35_title</font>
                         <align>center</align>
-                        <label>$INFO[ListItem.SortLetter,[UPPERCASE],[/UPPERCASE]]</label>
+                        <label>$INFO[ListItem.SortLetter,,]</label>
                         <visible>Container.Scrolling + [String.IsEqual(Container.SortMethod,$LOCALIZE[369]) | String.IsEqual(Container.SortMethod,$LOCALIZE[551]) | [Container.Content(artists) + String.IsEqual(Container.SortMethod,$LOCALIZE[557])]]</visible>
                         <visible>!Window.IsVisible(DialogBusy.xml) + !Control.IsVisible(12345)</visible>
                         <animation effect="fade" start="0" end="100" time="150">VisibleChange</animation>

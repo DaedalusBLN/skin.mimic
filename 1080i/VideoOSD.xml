@@ -273,8 +273,8 @@
                     <width>100</width>
                     <height>64</height>
                     <font>IconMedium</font>
-                    <onclick>Dialog.Close(VideoOSD)</onclick>
-                    <onclick>ActivateWindow(SubtitleSearch)</onclick>
+                    <!--onclick>Dialog.Close(VideoOSD)</onclick-->
+                    <!--onclick>ActivateWindow(SubtitleSearch)</onclick-->
                     <visible>!VideoPlayer.Content(livetv)</visible>
                 </control>
                 <control type="button" id="718">
@@ -362,7 +362,7 @@
                     <control type="button" id="12103">
                         <width>470</width>
                         <label>$LOCALIZE[21448]</label>
-                        <label2>[UPPERCASE]$INFO[VideoPlayer.SubtitlesLanguage][/UPPERCASE]</label2>
+                        <label2>$INFO[VideoPlayer.SubtitlesLanguage]</label2>
                         <onclick>CycleSubtitle</onclick>
                         <enable>VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled</enable>
                     </control>

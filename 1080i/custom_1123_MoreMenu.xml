@@ -148,8 +148,8 @@
                         <label>31202</label>
                         <label2>$INFO[System.AddonTitle(script.extendedinfo)]$INFO[System.AddonVersion(script.extendedinfo), (,)]</label2>
                         <onclick>Dialog.Close(1123)</onclick>
-                        <onclick condition="String.IsEqual(Window(movieinformation).Property(Info.DBType),movie)">RunScript(script.extendedinfo,info=extendedinfo,dbid=$INFO[Window(movieinformation).Property(Info.DBID)])</onclick>
-                        <onclick condition="String.IsEqual(Window(movieinformation).Property(Info.DBType),tvshow)">RunScript(script.extendedinfo,info=extendedtvinfo,dbid=$INFO[Window(movieinformation).Property(Info.DBID)])</onclick>
+                        <onclick condition="String.IsEqual(Window(movieinformation).Property(Info.DBType),movie)">RunScript(script.extendedinfo,info=openinfodialog)</onclick>
+                        <onclick condition="String.IsEqual(Window(movieinformation).Property(Info.DBType),tvshow)">RunScript(script.extendedinfo,info=openinfodialog)</onclick>
                     </item>
                     <item id="7">
                         <visible>System.HasAddon(script.cinemavision) + [String.IsEqual(Window(movieinformation).Property(Info.DBType),movie) | String.IsEqual(Window(movieinformation).Property(Info.DBType),tvshow) | String.IsEqual(Window(movieinformation).Property(Info.DBType),season) | String.IsEqual(Window(movieinformation).Property(Info.DBType),episode)]</visible>

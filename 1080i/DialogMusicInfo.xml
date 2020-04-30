@@ -353,7 +353,7 @@
                             <animation effect="slide" end="579,0" time="300" tween="cubic" easing="inout" condition="Container(150).Column(1)">Conditional</animation>
                         </control>
                     </control>
-                    <control type="panel" id="150">
+                    <!--control type="panel" id="150">
                         <description>YouTube Videos</description>
                         <animation effect="fade" start="0" end="100" time="500" tween="sine" easing="inout">Visible</animation>
                         <left>-4</left>
@@ -445,7 +445,7 @@
                             </control>
                         </focusedlayout>
                         <content>$VAR[MusicInfoYoutubePath]</content>
-                    </control>
+                    </control-->
                     <control type="group">
                         <visible>Integer.IsGreater(Container(250).NumItems,0)</visible>
                         <control type="image">
@@ -732,14 +732,14 @@
                             <label>182</label>
                             <visible>$EXP[isAlbum]</visible>
                         </control>
-                        <control type="button" id="204">
+                        <!--control type="button" id="204">
                             <description>YouTube</description>
                             <include>ButtonInfoDialogsCommonValues</include>
                             <label>31070</label>
                             <onclick>RunScript(script.extendedinfo?info=youtubesearch&amp;&amp;id=$ESCINFO[ListItem.Artist] $LOCALIZE[2])</onclick>
                             <enable>System.HasAddon(script.extendedinfo)</enable>
                             <visible>$EXP[isArtist] | $EXP[isAlbum] | $EXP[isSong]</visible>
-                        </control>
+                        </control-->
                         <control type="button" id="7">
                             <description>User ratings</description>
                             <include>ButtonInfoDialogsCommonValues</include>
